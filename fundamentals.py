@@ -6,13 +6,15 @@ def get_date_of_birth(id_number:str):
 
     result = format: DD/MM/YY: 
     """
-    year = id_number [0:2]
-    month = id_number[2:4]
-    date = id_number [4:6]
-    # birth_of_date = id_number [0:2]
-    # birth_of_date =  id_number [2:4]
-    # birth_of_date = id_number[4:6] 
-    result = (f "{date}/ {month}/ {year}")
+    # year = id_number [0:2]
+    # month = id_number[2:4]
+    # day = id_number [4:6]
+    date_of_birth = id_number [0:2]
+    date_of_birth =  id_number [2:4]
+    date_of_birth= id_number[4:6] 
+    # date_of_birth = day + '/' + month + '/' + year
+    
+    return date_of_birth
 
 
 #Question 2    
